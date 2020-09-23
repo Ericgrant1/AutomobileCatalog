@@ -11,15 +11,35 @@ class MainTabController: UITabBarController {
 
     // MARK: - Properties
     
+    let actionButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.tintColor = .white
+        button.backgroundColor = .black
+        button.setImage(UIImage(systemName: "text.badge.plus", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), for: .normal)
+        return button
+    }()
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         configureViewControllers()
+        configureUI()
     }
     
     // MARK: - Helpers
+    
+    func configureUI() {
+        
+        view.addSubview(actionButton)
+        actionButton.translatesAutoresizingMaskIntoConstraints = false
+        actionButton.heightAnchor.constraint(equalToConstant: 56).isActive = true
+        actionButton.widthAnchor.constraint(equalToConstant: 56).isActive = true
+        actionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -64).isActive = true
+        actionButton.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -16).isActive = true
+        actionButton.layer.cornerRadius = 56 / 2
+    }
     
     func configureViewControllers() {
         
