@@ -43,6 +43,24 @@ class LoginController: UIViewController {
         return tf
     }()
     
+    private let loginButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Log In", for: .normal)
+        button.setTitleColor(.chineseBlack, for: .normal)
+        button.backgroundColor = .white
+        button.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        button.layer.cornerRadius = 5
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
+        return button
+    }()
+    
+    private let dontHaveAccountButton: UIButton = {
+        let button = Utillities().attributeButton("Don't have an account? ", "Sign Up")
+        button.addTarget(self, action: #selector(handleShowSignUp), for: .touchUpInside)
+        return button
+    }()
+    
     // MARK: - LifeCycle
     
     override func viewDidLoad() {
@@ -52,6 +70,14 @@ class LoginController: UIViewController {
     }
     
     // MARK: - Selectors
+    
+    @objc func handleLogin() {
+        print(#function)
+    }
+    
+    @objc func handleShowSignUp() {
+        print(#function)
+    }
     
     // MARK: - Helpers
     
@@ -75,5 +101,12 @@ class LoginController: UIViewController {
                      right: view.rightAnchor,
                      paddingLeft: 32,
                      paddingRight: 32)
+        
+        view.addSubview(dontHaveAccountButton)
+        dontHaveAccountButton.anchor(left: view.leftAnchor,
+                                     bottom: view.safeAreaLayoutGuide.bottomAnchor,
+                                     right: view.rightAnchor,
+                                     paddingLeft: 40,
+                                     paddingRight: 40)
     }
 }
