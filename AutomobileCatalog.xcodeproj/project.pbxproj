@@ -61,6 +61,12 @@
 		5291F439251B36AE005156EF /* AutomobileCatalog */ = {
 			isa = PBXGroup;
 			children = (
+				5291F47C251B6B23005156EF /* Model */,
+				5291F47B251B6AEC005156EF /* View */,
+				5291F47A251B6AE5005156EF /* ViewModel */,
+				5291F479251B6AE2005156EF /* Controller */,
+				5291F477251B6AC9005156EF /* API */,
+				5291F478251B6AD0005156EF /* Utilities */,
 				5291F43A251B36AE005156EF /* AppDelegate.swift */,
 				5291F43C251B36AE005156EF /* SceneDelegate.swift */,
 				5291F43E251B36AE005156EF /* ViewController.swift */,
@@ -70,6 +76,48 @@
 				5291F448251B36B1005156EF /* Info.plist */,
 			);
 			path = AutomobileCatalog;
+			sourceTree = "<group>";
+		};
+		5291F477251B6AC9005156EF /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		5291F478251B6AD0005156EF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5291F479251B6AE2005156EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5291F47A251B6AE5005156EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		5291F47B251B6AEC005156EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5291F47C251B6B23005156EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
