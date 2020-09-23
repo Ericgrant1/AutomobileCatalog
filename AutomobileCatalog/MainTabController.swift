@@ -24,18 +24,26 @@ class MainTabController: UITabBarController {
     func configureViewControllers() {
         
         let list = ListController()
-        list.tabBarItem.image = UIImage(systemName: "doc.text", withConfiguration: UIImage.SymbolConfiguration(weight: .regular))
+        let nav1 = templateNavigationController(image: UIImage(systemName: "doc.text", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), rootViewController: list)
         
         let explore = ExploreController()
-        explore.tabBarItem.image = UIImage(systemName: "magnifyingglass", withConfiguration: UIImage.SymbolConfiguration(weight: .regular))
+        let nav2 = templateNavigationController(image: UIImage(systemName: "magnifyingglass", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), rootViewController: explore)
         
         let notification = NotificationsController()
-        notification.tabBarItem.image = UIImage(systemName: "heart", withConfiguration: UIImage.SymbolConfiguration(weight: .regular))
+        let nav3 = templateNavigationController(image: UIImage(systemName: "heart", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), rootViewController: notification)
         
         let conversations = ConversationsController()
-        conversations.tabBarItem.image = UIImage(systemName: "envelope", withConfiguration: UIImage.SymbolConfiguration(weight: .regular))
+        let nav4 = templateNavigationController(image: UIImage(systemName: "envelope", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), rootViewController: conversations)
         
-        viewControllers = [list, explore, notification, conversations]
+        viewControllers = [nav1, nav2, nav3, nav4]
+    }
+    
+    func templateNavigationController(image: UIImage?, rootViewController: UIViewController) -> UINavigationController {
+        
+        let nav = UINavigationController(rootViewController:  rootViewController)
+        nav.tabBarItem.image = image
+        nav.navigationBar.barTintColor = .white
+        return nav
     }
     
 }
