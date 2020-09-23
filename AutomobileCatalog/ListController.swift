@@ -17,9 +17,21 @@ class ListController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        configureUI()
     }
     
     // MARK: - Helpers
     
+    func configureUI() {
+        
+        view.backgroundColor = .white
+        
+        let imageView = UIImageView(image: UIImage(named: "small_logo"))
+        imageView.contentMode = .scaleAspectFit
+        navigationItem.titleView = imageView
+        
+        
+//        iv.setDimensions(width: 48, height: 48)
+//        iv.layer.cornerRadius = 48 / 2
+    }
 }
