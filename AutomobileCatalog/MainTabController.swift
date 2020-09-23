@@ -16,6 +16,7 @@ class MainTabController: UITabBarController {
         button.tintColor = .white
         button.backgroundColor = .chineseBlack
         button.setImage(UIImage(systemName: "text.badge.plus", withConfiguration: UIImage.SymbolConfiguration(weight: .regular)), for: .normal)
+        button.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
         return button
     }()
     
@@ -26,6 +27,12 @@ class MainTabController: UITabBarController {
 
         configureViewControllers()
         configureUI()
+    }
+    
+    // MARK: - Selectors
+    
+    @objc func actionButtonTapped() {
+        print(#function)
     }
     
     // MARK: - Helpers
