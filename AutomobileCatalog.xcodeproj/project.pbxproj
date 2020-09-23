@@ -26,6 +26,7 @@
 		5291F446251B36B1005156EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5291F448251B36B1005156EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5291F473251B6787005156EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5291F476251B692F005156EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 				5291F439251B36AE005156EF /* AutomobileCatalog */,
 				5291F438251B36AE005156EF /* Products */,
 				5291F473251B6787005156EF /* .gitignore */,
+				5291F476251B692F005156EF /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
