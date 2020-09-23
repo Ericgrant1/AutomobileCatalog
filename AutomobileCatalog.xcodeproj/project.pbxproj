@@ -14,6 +14,10 @@
 		5291F447251B36B1005156EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5291F445251B36B1005156EF /* LaunchScreen.storyboard */; };
 		5291F474251B6787005156EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5291F473251B6787005156EF /* .gitignore */; };
 		5291F480251B6CDB005156EF /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F47F251B6CDB005156EF /* MainTabController.swift */; };
+		5291F483251B6FF2005156EF /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F482251B6FF2005156EF /* ListController.swift */; };
+		5291F486251B7552005156EF /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F485251B7552005156EF /* ExploreController.swift */; };
+		5291F489251B75C1005156EF /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F488251B75C1005156EF /* NotificationsController.swift */; };
+		5291F490251B767B005156EF /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F48F251B767B005156EF /* ConversationsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		5291F473251B6787005156EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5291F476251B692F005156EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5291F47F251B6CDB005156EF /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		5291F482251B6FF2005156EF /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		5291F485251B7552005156EF /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		5291F488251B75C1005156EF /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		5291F48F251B767B005156EF /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +76,6 @@
 				5291F477251B6AC9005156EF /* API */,
 				5291F478251B6AD0005156EF /* Utilities */,
 				5291F43A251B36AE005156EF /* AppDelegate.swift */,
-				5291F47F251B6CDB005156EF /* MainTabController.swift */,
 				5291F43C251B36AE005156EF /* SceneDelegate.swift */,
 				5291F440251B36AE005156EF /* Main.storyboard */,
 				5291F443251B36B1005156EF /* Assets.xcassets */,
@@ -95,6 +102,11 @@
 		5291F479251B6AE2005156EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5291F47F251B6CDB005156EF /* MainTabController.swift */,
+				5291F482251B6FF2005156EF /* ListController.swift */,
+				5291F485251B7552005156EF /* ExploreController.swift */,
+				5291F488251B75C1005156EF /* NotificationsController.swift */,
+				5291F48F251B767B005156EF /* ConversationsController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -191,9 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5291F489251B75C1005156EF /* NotificationsController.swift in Sources */,
+				5291F490251B767B005156EF /* ConversationsController.swift in Sources */,
 				5291F43B251B36AE005156EF /* AppDelegate.swift in Sources */,
+				5291F486251B7552005156EF /* ExploreController.swift in Sources */,
 				5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */,
 				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
+				5291F483251B6FF2005156EF /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
