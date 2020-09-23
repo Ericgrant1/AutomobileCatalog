@@ -18,6 +18,7 @@
 		5291F486251B7552005156EF /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F485251B7552005156EF /* ExploreController.swift */; };
 		5291F489251B75C1005156EF /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F488251B75C1005156EF /* NotificationsController.swift */; };
 		5291F490251B767B005156EF /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F48F251B767B005156EF /* ConversationsController.swift */; };
+		5291F493251B9A80005156EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F492251B9A80005156EF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5291F485251B7552005156EF /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		5291F488251B75C1005156EF /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		5291F48F251B767B005156EF /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		5291F492251B9A80005156EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		5291F478251B6AD0005156EF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5291F492251B9A80005156EF /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				5291F489251B75C1005156EF /* NotificationsController.swift in Sources */,
 				5291F490251B767B005156EF /* ConversationsController.swift in Sources */,
 				5291F43B251B36AE005156EF /* AppDelegate.swift in Sources */,
+				5291F493251B9A80005156EF /* Extensions.swift in Sources */,
 				5291F486251B7552005156EF /* ExploreController.swift in Sources */,
 				5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */,
 				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
