@@ -21,6 +21,7 @@
 		5291F493251B9A80005156EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F492251B9A80005156EF /* Extensions.swift */; };
 		5291F498251BA292005156EF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F497251BA292005156EF /* LoginController.swift */; };
 		5291F49C251BA34E005156EF /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F49B251BA34E005156EF /* RegistrationController.swift */; };
+		5291F49F251BB343005156EF /* Utillities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F49E251BB343005156EF /* Utillities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		5291F492251B9A80005156EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5291F497251BA292005156EF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		5291F49B251BA34E005156EF /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		5291F49E251BB343005156EF /* Utillities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utillities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5291F492251B9A80005156EF /* Extensions.swift */,
+				5291F49E251BB343005156EF /* Utillities.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				5291F43B251B36AE005156EF /* AppDelegate.swift in Sources */,
 				5291F493251B9A80005156EF /* Extensions.swift in Sources */,
 				5291F498251BA292005156EF /* LoginController.swift in Sources */,
+				5291F49F251BB343005156EF /* Utillities.swift in Sources */,
 				5291F486251B7552005156EF /* ExploreController.swift in Sources */,
 				5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */,
 				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
