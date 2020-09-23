@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabController.swift
 //  AutomobileCatalog
 //
 //  Created by Eric Grant on 23.09.2020.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .green
     }
-
-
+    
 }
-

@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		5291F43B251B36AE005156EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F43A251B36AE005156EF /* AppDelegate.swift */; };
 		5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F43C251B36AE005156EF /* SceneDelegate.swift */; };
-		5291F43F251B36AE005156EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F43E251B36AE005156EF /* ViewController.swift */; };
 		5291F442251B36AE005156EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5291F440251B36AE005156EF /* Main.storyboard */; };
 		5291F444251B36B1005156EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5291F443251B36B1005156EF /* Assets.xcassets */; };
 		5291F447251B36B1005156EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5291F445251B36B1005156EF /* LaunchScreen.storyboard */; };
 		5291F474251B6787005156EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5291F473251B6787005156EF /* .gitignore */; };
+		5291F480251B6CDB005156EF /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F47F251B6CDB005156EF /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5291F437251B36AE005156EF /* AutomobileCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomobileCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5291F43A251B36AE005156EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5291F43C251B36AE005156EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5291F43E251B36AE005156EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5291F441251B36AE005156EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5291F443251B36B1005156EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5291F446251B36B1005156EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5291F448251B36B1005156EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5291F473251B6787005156EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5291F476251B692F005156EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5291F47F251B6CDB005156EF /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				5291F477251B6AC9005156EF /* API */,
 				5291F478251B6AD0005156EF /* Utilities */,
 				5291F43A251B36AE005156EF /* AppDelegate.swift */,
+				5291F47F251B6CDB005156EF /* MainTabController.swift */,
 				5291F43C251B36AE005156EF /* SceneDelegate.swift */,
-				5291F43E251B36AE005156EF /* ViewController.swift */,
 				5291F440251B36AE005156EF /* Main.storyboard */,
 				5291F443251B36B1005156EF /* Assets.xcassets */,
 				5291F445251B36B1005156EF /* LaunchScreen.storyboard */,
@@ -191,9 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5291F43F251B36AE005156EF /* ViewController.swift in Sources */,
 				5291F43B251B36AE005156EF /* AppDelegate.swift in Sources */,
 				5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */,
+				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
