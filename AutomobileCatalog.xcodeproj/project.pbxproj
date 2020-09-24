@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		5291F49C251BA34E005156EF /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F49B251BA34E005156EF /* RegistrationController.swift */; };
 		5291F49F251BB343005156EF /* Utillities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F49E251BB343005156EF /* Utillities.swift */; };
 		5291F4AC251C5247005156EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5291F4AB251C5247005156EF /* GoogleService-Info.plist */; };
+		5291F4E1251C6E18005156EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F4E0251C6E18005156EF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		5291F49B251BA34E005156EF /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		5291F49E251BB343005156EF /* Utillities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utillities.swift; sourceTree = "<group>"; };
 		5291F4AB251C5247005156EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5291F4E0251C6E18005156EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DAABAA3D308CFC00F5F64C9B /* Pods_AutomobileCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomobileCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55D01547DF9B49ABCAB1D8A /* Pods-AutomobileCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomobileCatalog.debug.xcconfig"; path = "Target Support Files/Pods-AutomobileCatalog/Pods-AutomobileCatalog.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA5FE5BC6A33623CBEC1ABB /* Pods-AutomobileCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomobileCatalog.release.xcconfig"; path = "Target Support Files/Pods-AutomobileCatalog/Pods-AutomobileCatalog.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				5291F492251B9A80005156EF /* Extensions.swift */,
 				5291F49E251BB343005156EF /* Utillities.swift */,
+				5291F4E0251C6E18005156EF /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -176,7 +179,6 @@
 				F55D01547DF9B49ABCAB1D8A /* Pods-AutomobileCatalog.debug.xcconfig */,
 				FCA5FE5BC6A33623CBEC1ABB /* Pods-AutomobileCatalog.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -307,6 +309,7 @@
 				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
 				5291F49C251BA34E005156EF /* RegistrationController.swift in Sources */,
 				5291F483251B6FF2005156EF /* ListController.swift in Sources */,
+				5291F4E1251C6E18005156EF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
