@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>58617756143-in84o7i054ugirjkslstq4icsdo68srv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.58617756143-in84o7i054ugirjkslstq4icsdo68srv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFEgugfFoHW8n3FgEI9T0i3dV7c3n4oXo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>58617756143</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ericgrant.AutomobileCatalog</string>
+	<key>PROJECT_ID</key>
+	<string>automobilecatalog-6be27</string>
+	<key>STORAGE_BUCKET</key>
+	<string>automobilecatalog-6be27.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:58617756143:ios:ef29209d449b2bea1d9e1a</string>
+	<key>DATABASE_URL</key>
+	<string>https://automobilecatalog-6be27.firebaseio.com</string>
+</dict>
+</plist>
