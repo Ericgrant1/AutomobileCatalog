@@ -77,7 +77,16 @@ class LoginController: UIViewController {
     }
     
     @objc func handleLogin() {
-        print(#function)
+        guard let email = emailTextField.text else { return }
+        guard let password = passwordTextField.text else { return }
+        
+        AuthService.shared.logUserIn(withEmail: email, password: password) { (result, error) in
+            if let error = error {
+                print("DEBUG: Error logging in \(error.localizedDescription)")
+                return
+            }
+            print("DEBUG: Successful log in...")
+        }
     }
     
     // MARK: - Helpers
@@ -91,7 +100,9 @@ class LoginController: UIViewController {
         logoImageView.centerX(inView: view, topAnchor: view.safeAreaLayoutGuide.topAnchor)
         logoImageView.setDimensions(width: 150, height: 150)
         
-        let stack = UIStackView(arrangedSubviews: [emailContainerView, passwordContainerView])
+        let stack = UIStackView(arrangedSubviews: [emailContainerView,
+                                                   passwordContainerView,
+                                                   loginButton])
         stack.axis = .vertical
         stack.spacing = 20
         stack.distribution = .fillEqually
