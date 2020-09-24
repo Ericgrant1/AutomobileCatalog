@@ -25,6 +25,7 @@
 		5291F49F251BB343005156EF /* Utillities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F49E251BB343005156EF /* Utillities.swift */; };
 		5291F4AC251C5247005156EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5291F4AB251C5247005156EF /* GoogleService-Info.plist */; };
 		5291F4E1251C6E18005156EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F4E0251C6E18005156EF /* Constants.swift */; };
+		5291F4E4251C8C61005156EF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291F4E3251C8C61005156EF /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5291F49E251BB343005156EF /* Utillities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utillities.swift; sourceTree = "<group>"; };
 		5291F4AB251C5247005156EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5291F4E0251C6E18005156EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5291F4E3251C8C61005156EF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		DAABAA3D308CFC00F5F64C9B /* Pods_AutomobileCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomobileCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55D01547DF9B49ABCAB1D8A /* Pods-AutomobileCatalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomobileCatalog.debug.xcconfig"; path = "Target Support Files/Pods-AutomobileCatalog/Pods-AutomobileCatalog.debug.xcconfig"; sourceTree = "<group>"; };
 		FCA5FE5BC6A33623CBEC1ABB /* Pods-AutomobileCatalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomobileCatalog.release.xcconfig"; path = "Target Support Files/Pods-AutomobileCatalog/Pods-AutomobileCatalog.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		5291F477251B6AC9005156EF /* API */ = {
 			isa = PBXGroup;
 			children = (
+				5291F4E3251C8C61005156EF /* AuthService.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				5291F493251B9A80005156EF /* Extensions.swift in Sources */,
 				5291F498251BA292005156EF /* LoginController.swift in Sources */,
 				5291F49F251BB343005156EF /* Utillities.swift in Sources */,
+				5291F4E4251C8C61005156EF /* AuthService.swift in Sources */,
 				5291F486251B7552005156EF /* ExploreController.swift in Sources */,
 				5291F43D251B36AE005156EF /* SceneDelegate.swift in Sources */,
 				5291F480251B6CDB005156EF /* MainTabController.swift in Sources */,
